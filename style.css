@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    height: 200px;
+    padding: 40px 0px 20px 80px;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.login {
+    background: #665AE1;
+    border: none;
+    height: 41px;
+    width: 130px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text {
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+main {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.cachorro {
+    height: 520px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #515151;
+    text-transform: uppercase;
+}
+
+.about-your-pet {
+    font-size: 58px;
+    color: #515151;
+    font-weight: 500;
+}
+
+.lorem {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.explore {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #ADFF00;
+    border: none;
+    width: 239px;
+    height: 64px;
+    border-radius: 32px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 50px;
+}
